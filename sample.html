@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: Arial, sans-serif;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            width: 100%;
+            text-align: center;
+            position: absolute;
+            top: 0;
+            padding: 10px 0;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+            position: absolute;
+            top: 60px; /* Adjust this value as needed */
+            width: 100%;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #333;
+        }
+        section {
+            padding: 20px;
+            margin: 20px 0;
+            width: 100%;
+            text-align: center;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+        .centered-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Our Website</h1>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About Us</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact Us</a>
+        <a href="#blog">Blog/News</a>
+        <a href="#careers">Careers</a>
+    </nav>
+
+    <div class="centered-content">
+        <h1>Main Title in the Center</h1>
+    </div>
+
+    <section id="home">
+        <h2>Home</h2>
+        <p>Welcome to our homepage! We are glad to have you here.</p>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Learn more about our company and our values.</p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <p>Discover the range of services we offer to our clients.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Get in touch with us through the following means:</p>
+        <ul>
+            <li>Email: info@example.com</li>
+            <li>Phone: (123) 456-7890</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>Blog/News</h2>
+        <p>Read our latest news and updates on our blog.</p>
+    </section>
+
+    <section id="careers">
+        <h2>Careers</h2>
+        <p>Join our team! Check out our current job openings.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
